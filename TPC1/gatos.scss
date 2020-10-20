@@ -1,0 +1,76 @@
+*{
+    font-family: Roboto Regular
+};
+ 
+   
+.container {
+    display: flex;
+    justify-content: center;
+    
+    
+    margin-bottom: 5px;
+    .menu {
+        border-bottom:5px solid gainsboro;
+        border-radius: 5px;
+        a {
+            text-decoration: none;
+            color: black;
+            margin-right: 10px;
+            font-size: 20px;
+            
+        }
+    }
+    
+    
+}
+
+.apresentacao{
+    font-family: Roboto Regular;
+    
+    font-style: 20px;
+    text-align: center;
+}
+body{
+    background-color: #fdfdfd;
+}
+
+.cards-container{
+    
+    display: flex;
+    justify-content: space-evenly;
+    .card{
+      
+        p{
+            text-align: center;
+        }
+    }
+    .image-container{
+        width: 200px;
+        height: 250px;
+    }
+}
+
+.video{
+    text-align: center;
+
+    .video-container{
+        display: flex;
+        
+        justify-content: center;
+    }
+}
+
+.footer{
+    text-align: center;
+    margin-top: 15px;
+    .footer-p{
+        border-top:5px solid gainsboro;
+        border-radius: 5px;
+        font-size: 15px;
+   } 
+}
+
+h1 {
+
+    text-align: center;
+}
