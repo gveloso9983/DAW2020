@@ -1,57 +1,64 @@
 * {
-    font-family: Roboto Regular;
-  }
-  .container {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5px;
-  }
-  .container .menu {
-    border-bottom: 5px solid gainsboro;
-    border-radius: 5px;
-  }
-  .container .menu a {
-    text-decoration: none;
-    color: black;
-    margin-right: 10px;
-    font-size: 20px;
-  }
-  .apresentacao {
-    font-family: Roboto Regular;
-    font-style: 20px;
-    text-align: center;
-  }
-  body {
-    background-color: #fdfdfd;
-  }
-  .cards-container {
-    display: flex;
-    justify-content: space-evenly;
-  }
-  .cards-container .card p {
-    text-align: center;
-  }
-  .cards-container .image-container {
-    width: 200px;
-    height: 250px;
-  }
-  .video {
-    text-align: center;
-  }
-  .video .video-container {
-    display: flex;
-    justify-content: center;
-  }
-  .footer {
-    text-align: center;
-    margin-top: 15px;
-  }
-  .footer .footer-p {
-    border-top: 5px solid gainsboro;
-    border-radius: 5px;
-    font-size: 15px;
-  }
-  h1 {
-    text-align: center;
-  }
+  font-family: Roboto Regular;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.container .menu {
+  border-bottom: 5px solid gainsboro;
+  border-radius: 5px;
+}
+.container .menu a {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.texto {
+  font-family: Roboto;
+  font-size: 20px;
+  text-align: center;
+}
+.apresentacao {
+  font-family: Roboto Regular;
   
+  text-align: center;
+}
+.apresentacao p {
+  font-size: 10px;
+}
+body {
+  background-color: #fdfdfd;
+}
+.cards-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.cards-container .card p {
+  text-align: center;
+}
+.cards-container .image-container {
+  width: 200px;
+  height: 250px;
+}
+.video {
+  text-align: center;
+}
+.video .video-container {
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  text-align: center;
+  margin-top: 15px;
+}
+.footer .footer-p {
+  border-top: 5px solid gainsboro;
+  border-radius: 5px;
+  font-size: 15px;
+}
+h1 {
+  text-align: center;
+}

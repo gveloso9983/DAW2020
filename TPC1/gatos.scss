@@ -24,12 +24,22 @@
     
 }
 
-.apresentacao{
-    font-family: Roboto Regular;
-    
-    font-style: 20px;
+.texto{
+    font-family: Roboto;
+    font-size: 15px;
     text-align: center;
 }
+
+.apresentacao{
+    font-family: Roboto Regular;
+    font-size: 15px;
+    text-align: center;
+
+    p{
+        font-size: 10px;
+    }
+}
+
 body{
     background-color: #fdfdfd;
 }
