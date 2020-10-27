@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE projectrecord SYSTEM "projectrecord.dtd">
+<projectrecord>
+	<cabecalho>
+		<nome-chave>#PCDATA</nome-chave>
+		<titulo>#PCDATA</titulo>
+		<subtitulo>#PCDATA</subtitulo>
+		<data-inicio>#PCDATA</data-inicio>
+		<data-fim>#PCDATA</data-fim>
+		<supervisor>#PCDATA</supervisor>
+	</cabecalho>
+	<apresentacao>
+		<nome-equipa>#PCDATA</nome-equipa>
+		<nr-aluno>#PCDATA</nr-aluno>
+		<nome>#PCDATA</nome>
+		<email>#PCDATA</email>
+	</apresentacao>
+	<abstract>
+		<paragrafo>
+			<texto>
+				<normal>#PCDATA</normal>
+			</texto>
+		</paragrafo>
+	</abstract>
+	<entregavel>
+		<link href="path">#PCDATA</link>
+	</entregavel>
+</projectrecord>

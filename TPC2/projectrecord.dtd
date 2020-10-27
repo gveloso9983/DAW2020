@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT projectrecord (cabecalho, apresentacao, abstract, entregavel) >
+<!ELEMENT cabecalho (nome-chave, titulo, subtitulo?, data-inicio, data-fim, supervisor) >
+<!ELEMENT nome-chave (#PCDATA) >
+<!ELEMENT titulo (#PCDATA) >
+<!ELEMENT subtitulo (#PCDATA) >
+<!ELEMENT data-inicio (#PCDATA) >
+<!ELEMENT data-fim (#PCDATA) >
+<!ELEMENT supervisor (#PCDATA) >
+
+<!ELEMENT apresentacao (nome-equipa, nr-aluno, nome, email) >
+<!ELEMENT nome-equipa (#PCDATA) >
+<!ELEMENT nr-aluno (#PCDATA) >
+<!ELEMENT nome (#PCDATA) >
+<!ELEMENT email (#PCDATA) >
+
+
+<!ELEMENT abstract (paragrafo) >
+<!ELEMENT paragrafo (texto+) >
+<!ELEMENT texto (normal|bold|italic)*  >
+<!ELEMENT normal (#PCDATA) >
+<!ELEMENT bold (#PCDATA) >
+<!ELEMENT italic (#PCDATA) >
+
+
+<!ELEMENT entregavel (link+) >
+<!ATTLIST link href CDATA "path">

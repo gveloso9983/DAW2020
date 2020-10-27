@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="abstract">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="paragrafo"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="texto">
+		<xsd:complexType>
+			<xsd:choice>
+				<xsd:element ref="normal"/>
+				<xsd:element ref="bold"/>
+				<xsd:element ref="italic"/>
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="link">
+		<xsd:attribute name="href" default="path" use="optional" type="xsd:string"/>
+	</xsd:element>
+	<xsd:element name="cabecalho">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="nome-chave"/>
+				<xsd:element ref="titulo"/>
+				<xsd:element ref="subtitulo" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="data-inicio"/>
+				<xsd:element ref="data-fim"/>
+				<xsd:element ref="supervisor"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="projectrecord">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="cabecalho"/>
+				<xsd:element ref="apresentacao"/>
+				<xsd:element ref="abstract"/>
+				<xsd:element ref="entregavel"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="apresentacao">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="nome-equipa"/>
+				<xsd:element ref="nr-aluno"/>
+				<xsd:element ref="nome"/>
+				<xsd:element ref="email"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="paragrafo">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="texto" minOccurs="1" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="entregavel">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="link" minOccurs="1" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="subtitulo" type="xsd:string"/>
+	<xsd:element name="bold" type="xsd:string"/>
+	<xsd:element name="normal" type="xsd:string"/>
+	<xsd:element name="email" type="xsd:string"/>
+	<xsd:element name="titulo" type="xsd:string"/>
+	<xsd:element name="nome" type="xsd:string"/>
+	<xsd:element name="nome-chave" type="xsd:string"/>
+	<xsd:element name="nr-aluno" type="xsd:string"/>
+	<xsd:element name="nome-equipa" type="xsd:string"/>
+	<xsd:element name="italic" type="xsd:string"/>
+</xsd:schema>
