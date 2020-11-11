@@ -7,7 +7,7 @@ http.createServer(function (req, res) {
     console.log(url.parse(req.url,true).query)
     console.log(url.parse(req.url,true).pathname)
     
-    var num = req.url.split("/")[req.url.length-1]
+    var num = req.url.split("/").pop()
 
     fs.readFile('pages/arq'+ num + '.html', function (err, data) {
         if(err){
@@ -21,17 +21,5 @@ http.createServer(function (req, res) {
         }
     })
 
-    // if(req.url.match(/\/[1-]$/)){
-    //     var num = req.url.split("/")[req.url.length-1];
-    //     fs.readFile('pages/arq' + num +'.html', function(err, data){
-    //         res.writeHead(200, {'Content-Type': 'text/html'})
-    //         res.write(data)
-    //         res.end()
-    //     });
-    // }else{
-    //     res.writeHead(200, {'Content-Type': 'text/html'})
-    //         res.write("Url doesnt match the expected")
-    //         res.end()
-    // }
 }).listen(7777)
 console.log('Server runing on port 7777')
