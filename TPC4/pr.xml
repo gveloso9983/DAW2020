@@ -14,9 +14,11 @@
         </member>
     </team>
     <abstract>
-        <p>Para este trabalho, foi-nos pedido para criar um ficheiro XSLT que gerasse diferentes páginas de html com o conteúdo do dataset dos arqueosítios /p>
+        <p>Para este trabalho, foi-nos pedido para criar um ficheiro XSLT que gerasse diferentes páginas de html com o conteúdo do dataset dos arqueosítios. </p>
+        <p>Posteriormente, criar um servidor em node js que nos fornecesse a página pretendida através da query string. </p>
+            
     </abstract>
     <deliverables>
-        <link url=""></link>
+        <link url="https://github.com/gveloso9983/DAW2020/tree/master/TPC4">Rep. TPC 4</link>
     </deliverables>
 </pr>
