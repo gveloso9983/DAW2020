@@ -3,8 +3,8 @@
     <meta>
         <key>TPC5</key>
         <title>Servidor Node Js With Fast API</title>
-        <bdate>11-11-2020</bdate>
-        <edate>18-11-2020</edate>
+        <bdate>18-11-2020</bdate>
+        <edate>25-11-2020</edate>
         <supervisor>José Ramalho</supervisor>
     </meta>
     <team>
@@ -14,11 +14,11 @@
         </member>
     </team>
     <abstract>
-        <p>Para este trabalho, foi-nos pedido para criar um servidor em node js que fornecesse as listagens dos alunos, cursos e instrumentos. Depois fornecer as páginas para cada dado. </p>
-       
+        <p>Neste trabalho foi criada uma api com recurso ao json server, em que o utilizador pode ver as suas tarefas, regista las e ver as ja completas. </p>
+       <p> O trabalho foi sumbetido em atraso devivo a esquecimento de colocar online</p>
             
     </abstract>
     <deliverables>
-        <link url="https://github.com/gveloso9983/DAW2020/tree/master/TPC5">Rep. TPC 5</link>
+        <link url="https://github.com/gveloso9983/DAW2020/tree/master/TPC6">Rep. TPC 5</link>
     </deliverables>
 </pr>

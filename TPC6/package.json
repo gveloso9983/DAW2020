@@ -1,0 +1,16 @@
+{
+  "name": "tpc6",
+  "version": "1.0.0",
+  "description": "TPC6 de DAW",
+  "main": "toDo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node toDo.js",
+    "devstart": "nodemon toDo.js"
+  },
+  "author": "Gonçalo Veloso",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
