@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>TPC5</key>
+        <title>Express  With Pug</title>
+        <bdate>25-11-2020</bdate>
+        <edate>2-11-2020</edate>
+        <supervisor>José Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="42830">
+            <name>Gonçalo Veloso</name>
+            <email>pg42830@alunos.uminho.com</email>
+        </member>
+    </team>
+    <abstract>
+        <p>Neste trabalho foram desenvolvidos métodos para listar estudante, gerar e listar informmação de um esutdante e registar estudantes. </p>
+       <p>A exploração de métodos como put e delete ainda não foi realizada</p>
+            
+    </abstract>
+    <deliverables>
+        <link url="https://github.com/gveloso9983/DAW2020/tree/master/TPC7">Rep. TPC 7</link>
+    </deliverables>
+</pr>
